@@ -5,11 +5,15 @@ You've inherited this website. It isn't mobile friendly. It isn't even desktop f
 You need NodeJS installed.
 
 From the project root run
-```npm install
+```
+npm install
+```
 
 then
 
-```node server.js
+```
+node server.js
+```
 
 and go to localhost:3000/ in your browser.
 
