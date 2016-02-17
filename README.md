@@ -1,5 +1,5 @@
 # Responsive web design kata
-You've inherited this website. It isn't mobile friendly. Your job is to make it more responsive.
+You've inherited this website. It isn't mobile friendly. It isn't even desktop friendly. Your job is to make it more responsive and improve the CSS along the way.
 
 # Build
 You need NodeJS installed.
