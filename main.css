@@ -2,14 +2,15 @@
     width: 800px;
 }
 
-.content{
-        display: table-cell;
+.content {
+    display: table-cell;
     vertical-align: middle;
     height: 100%;
 }
 
 #spacer{
     width: 600px;
+    height: 70px;
     display: inline-block;
 }
 
@@ -21,4 +22,15 @@
 
 .active {
     color: green;
+}
+
+.logo{
+    position: absolute;
+    left: 36px;
+    top: 20px;
+}
+
+
+.logo h3 {
+    font-family: cursive;
 }
