@@ -34,3 +34,11 @@
 .logo h3 {
     font-family: cursive;
 }
+
+.gray{
+    background-color: #d3d3d3;
+    height: 50px;
+    text-align: center;
+    width: 800px;
+    padding-top: 1%;
+}
