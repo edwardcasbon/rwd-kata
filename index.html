@@ -1,73 +1,51 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>Amazing site</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-</head>
-<body>
-  <div class="header" style="background-color:#BBBBBB; background-position-y: -75px; background-image:url(/images/banner.jpg); height:90px;" >
-    <div class="logo"><h3>AMAZING SITE</h3></div>
-    <div id="spacer"></div>
-    <a class="active" href="/index.html">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-  </div>
-  <div>
-    <div class="content" id="" >
-        <table style="border-spacing: 2px; width: 404px; height: 276px;" border="0" align="center" background="images/background-login.jpg">
-            <tr>
-                <td style="height: 45px;" colspan="2" >&nbsp;</td>
-            </tr>
-            <tr>
-                <td style="height: 20px; padding-left: 150px;">&nbsp;<input style="display: none;" name="COMPANY" id="COMPANY" tabindex="1"></td>
-            </tr>
-                <tr>
-                    <td style="padding-left: 150px; height: 20px;  width:50%;">
-                        <label style="font-size: 12px" for="USERID" accesskey="u" alignment="right"><u>U</u>sername:&nbsp;&nbsp;</label>
-                    </td>
-                    <td width="199" align="center">
-                        <input style="width: 148px; font-size: 12px" type="text" name="User ID" id="USERID" tabindex="2">
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding-left: 150px; height: 20px;  width:50%;">
-                        <label style="font-size: 12px" for="PWD" accesskey="p" alignment="right"><u>P</u>assword:&nbsp;&nbsp;</label>
-                    </td>
-                    <td align="center">
-                        <input style="width: 148px; font-size: 12px" type="password" name="Password" id="PWD" tabindex="3" autocomplete="off">
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding-left: 150px; height: 20px;"></td>
-                    <td style="font-size:x-small" align="center">(As is true for all passwords everywhere, your password is case sensitive)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td style="padding-top: 10px; height: 40px;" align="center">
-                        <table width="80%" border="0">
-                            <tr>
-                                <td width="50%" class="boxbutton" style="box-shadow: 3px 3px #DCDCDC;"><a class="" tabindex="3" title="Logon to Amazing Site" href="/about.html" id="LOGINBUTTON">Logon</a></td>
-                                <td>&nbsp;&nbsp;</td>
-                                <td width="50%" class="boxbutton" style="box-shadow: 3px 3px #DCDCDC;"><a class="" href="/" tabindex="4" title="Dont Logon">Cancel</a></td>
-                            </tr>
-                        </table>
-                    </td>
-                    <tr>
-                <td></td>
-                <td align="center" style="padding-left: 3px; height: 20px;">
-                    
-                </td>
-            <tr>
-            </tr>
-            <tr>
-                <td></td>
-            </tr>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <title>Amazing site, rebuilt</title>
+    </head>
+    <body>
+        <header>
+            <div class="inner-container">
+                <h1>Amazing site</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-            <tr>
-            </tr>
-        </table>
-    </div>
-  </div>
-<footer class="gray">Copyright of some sort</a></footer>
-</body>
+        <div class="content">
+            <div class="inner-container">
+
+                <form>
+                    <div>
+                        <label for="username" accesskey="u">Username</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+
+                    <div>
+                        <label for="password" accesskey="p">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Log on">
+                        <a href="#cancel">Cancel</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="inner-container">
+                <p>&copy;2016 Copyright of some sort</p>
+            </div>
+        </footer>
+    </body>
 </html>
