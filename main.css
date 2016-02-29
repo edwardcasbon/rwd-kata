@@ -45,6 +45,26 @@ header ul {
 
 header li {
     display: inline;
+    margin: 0 1rem;
+}
+
+@media (max-width: 40rem) {
+    header h1 {
+        text-align: center;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+    header li {
+        display: block;
+    }
+
+    header a {
+        display: block;
+        padding: 0.5rem 0;
+    }
 }
 
 /**
@@ -54,6 +74,10 @@ header li {
 footer {
     background-color: #ccc;
     text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
 }
 
 /**
