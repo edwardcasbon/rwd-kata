@@ -14,6 +14,9 @@
     display: inline-block;
 }
 
+.padding-left-100px{
+    padding-left: 100px;
+}
 .content{
     padding-left: 100px;
     height: 800px;
@@ -33,6 +36,10 @@
 
 .logo h3 {
     font-family: cursive;
+}
+
+#articles{
+   display: -webkit-box;
 }
 
 .gray{
